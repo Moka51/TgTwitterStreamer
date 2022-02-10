@@ -20,7 +20,7 @@ class Var:
     ACCESS_TOKEN_SECRET = config("tXeNz2QBmrMDTm1fNRnfcVPiuKOvs3Ve0T65EsZN7qoTz", None)
 
     # Telegram Chat id(s), where to send Tweets
-    TO_CHAT: str = config("-1001784398927", None)
+    TO_CHAT: str = config("1001784398927", None)
 
     # Username of Twitter User, whose Tweets should be tracked
     # and posted to chat filled in TO_CHAT.
