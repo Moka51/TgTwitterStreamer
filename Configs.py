@@ -7,24 +7,24 @@ from decouple import config
 
 class Var:
     # Telegram's API ID
-    API_ID = config("API_ID", default=6)
+    API_ID = config("7375369", default=6)
     # Telegram's API HASH
-    API_HASH = config("API_HASH", default="eb06d4abfb49dc3eeb1aeb98ae0f581e")
+    API_HASH = config("8386bb64df027c94f3b12724f8621caf", default="eb06d4abfb49dc3eeb1aeb98ae0f581e")
     # Telegram Bot's token
-    BOT_TOKEN = config("BOT_TOKEN", None)
+    BOT_TOKEN = config("5257669014:AAFoRi4-Iw3nw1SKWOsi3qMYa6lsKQ2wxvU", None)
 
     # Twitter Vars
-    CONSUMER_KEY = config("CONSUMER_KEY", None)
-    CONSUMER_SECRET = config("CONSUMER_SECRET", None)
-    ACCESS_TOKEN = config("ACCESS_TOKEN", None)
-    ACCESS_TOKEN_SECRET = config("ACCESS_TOKEN_SECRET", None)
+    CONSUMER_KEY = config("I2DdC8eCkAl83Ape17u298dfQ", None)
+    CONSUMER_SECRET = config("Iqmy1DGgojL4uDAGZGkCKlqlMf8HFKXCXJcMSxbLddbZHhzRta", None)
+    ACCESS_TOKEN = config("172560220-Kwz39GxZfy8Y149hHXC4znUlUGbZjVyIH13TcmLd", None)
+    ACCESS_TOKEN_SECRET = config("tXeNz2QBmrMDTm1fNRnfcVPiuKOvs3Ve0T65EsZN7qoTz", None)
 
     # Telegram Chat id(s), where to send Tweets
-    TO_CHAT: str = config("TO_CHAT", None)
+    TO_CHAT: str = config("-1001784398927", None)
 
     # Username of Twitter User, whose Tweets should be tracked
     # and posted to chat filled in TO_CHAT.
-    TRACK_USERS = config("TRACK_USERS", None)
+    TRACK_USERS = config("TokenBakeryTeam", None)
 
     # TRACK_WORDS: To filter Tweets by word
     # Should be seperated by "|"
